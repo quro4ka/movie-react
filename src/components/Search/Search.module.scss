@@ -1,0 +1,45 @@
+.search {
+    display: flex;
+    position: relative;
+    input {
+        width: 300px;
+        padding: 10px 20px;
+        border: 0;
+        outline: none;
+        background-color: rgb(83, 133, 144);
+        color: #000;
+        
+    }
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(211, 204, 59);
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 100px;
+    top: 6px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 800px) {
+    .search {
+        // display: none;
+        position: absolute;
+        top: 83px;
+
+        input {
+            width: 200px;
+        }
+    }
+}

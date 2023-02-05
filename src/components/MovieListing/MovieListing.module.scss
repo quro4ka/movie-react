@@ -1,0 +1,21 @@
+@import './../../common/colors.scss';
+
+.container {
+    padding: 20px 50px;
+    margin-bottom: 80px;
+}
+
+.movies {
+   
+
+    // display: grid;
+    // grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    // gap: 50px;
+
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        color: $font-secondary;
+        margin: 40px 0px 20px 0px;
+    }
+}
